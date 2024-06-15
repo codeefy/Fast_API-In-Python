@@ -13,6 +13,8 @@
     **git clone https://github.com/codeefy/Fast-API-in-Python.git**
 
 ### 2.Set up the environment :
-
+      **python -m venv myenv**
+      **.\myenv\Scripts\activate**
+Run this commnad in vs code terminal 
   
   
