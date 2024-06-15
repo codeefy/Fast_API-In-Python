@@ -11,5 +11,8 @@
 
 ### 1. Clone the repository:
     **git clone https://github.com/codeefy/Fast-API-in-Python.git**
+
+### 2.Set up the environment :
+
   
   
