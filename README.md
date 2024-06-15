@@ -14,10 +14,17 @@
 
 ### 2.Set up the environment :
       **python -m venv myenv**
-      **.\myenv\Scripts\activate**
+     
 Run this commnad in vs code terminal 
 
-### 3. Install important libraries 
+### 3.Active the environment 
+      **.\myenv\Scripts\activate**
+
+### 4. Install important Dependecies
       **pip3 install fastapi uvicorn**
       **pip3 install scikit-learn**
+
+### 5. Run the FastAPI server:
+      **uvicorn main:app --reload**
+    **The server will start at `http://127.0.0.1:8000`.**
   
