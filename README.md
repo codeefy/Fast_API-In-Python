@@ -17,7 +17,7 @@
      
 Run this commnad in vs code terminal 
 
-### 3.Active the environment 
+### 3.Activate the environment 
       **.\myenv\Scripts\activate**
 
 ### 4. Install important Dependecies
