@@ -31,6 +31,7 @@ Run this commnad in vs code terminal
 
 To use the API, send a POST request to the `/predict` endpoint with the sepal and petal measurements of the Iris flower.
 
-### Example using `curl`
+### Example using `curl` 
+Run this command in command line terminal
 
       **curl -X POST "http://127.0.0.1:8000/predict/" -H "Content-Type: application/json" -d "{\"sepal_length\": 5.1, \"sepal_width\": 3.5, \"petal_length\": 1.4, \"petal_width\": 0.2}"**
