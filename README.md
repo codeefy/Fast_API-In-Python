@@ -16,5 +16,8 @@
       **python -m venv myenv**
       **.\myenv\Scripts\activate**
 Run this commnad in vs code terminal 
-  
+
+### 3. Install important libraries 
+      **pip3 install fastapi uvicorn**
+      **pip3 install scikit-learn**
   
