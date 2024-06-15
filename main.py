@@ -47,3 +47,10 @@ async def predict_species_api(iris_data: IrisData):
 	species = predict_species(iris_data.sepal_length, iris_data.sepal_width, iris_data.petal_length, iris_data.petal_width)
 	return {"species": species}
 
+# Run the app with Uvicorn
+# with this : uvicorn main:app --reload
+
+# Test the API in command line 
+#curl -X POST "http://127.0.0.1:8000/predict/" -H "Content-Type: application/json" -d "{\"sepal_length\": 5.1, \"sepal_width\": 3.5, \"petal_length\": 1.4, \"petal_width\": 0.2}"
+#{"species":"setosa"}
+
