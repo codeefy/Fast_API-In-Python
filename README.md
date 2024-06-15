@@ -8,3 +8,8 @@
 
 - Python 3
 - pip (Python package installer)
+
+### 1. Clone the repository:
+    **git clone https://github.com/codeefy/Fast-API-in-Python.git**
+  
+  
